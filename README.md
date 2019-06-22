@@ -14,10 +14,11 @@ A Visual Studio Code theme for the hardcore programmers out there. ✨
 1.  Install [Visual Studio Code](https://code.visualstudio.com/)
 2.  Launch Visual Studio Code
 3.  Choose **Extensions** from menu
-4.  Search for `forxtu-theme`
-5.  Click **Install** to install it
-6.  Click **Reload** to reload the Code
-7.  From the menu bar click: Code > Preferences > Color Theme > **FORXTU Theme**
+4.  Search for `forxtu`
+5.  Pick **FORXTU Theme** from list
+6.  Click **Install** to install it
+7.  Click **Reload** to reload the Code
+8.  From the menu bar click: Code > Preferences > Color Theme > **FORXTU Theme**
 
 ## Preferences shown in the preview
 
