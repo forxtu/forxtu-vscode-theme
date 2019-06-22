@@ -1,5 +1,10 @@
 # FORXTU ☄️
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/forxtu.forxtu-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=forxtu.forxtu-vscode-theme)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/forxtu.forxtu-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=forxtu.forxtu-vscode-theme)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/forxtu.forxtu-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=forxtu.forxtu-vscode-theme)
+[![Rating](https://img.shields.io/vscode-marketplace/r/forxtu.forxtu-vscode-theme.svg)](https://marketplace.visualstudio.com/items?itemName=forxtu.forxtu-vscode-theme)
+
 A Visual Studio Code theme for the hardcore programmers out there. ✨
 
 ## FORXTU Theme
