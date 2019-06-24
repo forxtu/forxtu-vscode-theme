@@ -1171,6 +1171,13 @@
       }
     },
     {
+      "name": "JavaScript/TypeScript function parameters",
+      "scope": ["variable.other.readwrite.shorthandpropertyname.js"],
+      "settings": {
+        "foreground": "#75ffd1"
+      }
+    },
+    {
       "name": "JavaScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.js",
       "settings": {
@@ -1228,13 +1235,15 @@
       }
     },
     {
+      "name": "JavaScript[React]/TypeScript[React] JSX plain text",
+      "scope": ["meta.tag.jsx", "meta.tag.js"],
+      "settings": {
+        "foreground": "#fffff6"
+      }
+    },
+    {
       "name": "JavaScript[React] Variable Other Object",
-      "scope": [
-        "variable.other.object.js",
-        "variable.other.object.jsx",
-        "variable.object.property.js",
-        "variable.object.property.jsx"
-      ],
+      "scope": ["variable.object.property.js", "variable.object.property.jsx"],
       "settings": {
         "foreground": "#e28080"
       }
@@ -1300,7 +1309,7 @@
       "name": "JavaScript Other Variable",
       "scope": "variable.other.object.js",
       "settings": {
-        "foreground": "#EBE9C5"
+        "foreground": "#FFF9E3"
       }
     },
     {
@@ -1609,26 +1618,27 @@
     },
     {
       "name": "TypeScript[React] Object Properties",
-      "scope": [
-        "variable.other.readwrite.ts",
-        "variable.other.readwrite.tsx",
-        "variable.parameter.ts",
-        "variable.parameter.tsx"
-      ],
+      "scope": ["variable.parameter.ts", "variable.parameter.tsx"],
       "settings": {
-        "foreground": "#e28080"
+        "foreground": "#FFF9E3"
       }
     },
     {
       "name": "TypeScript[React] Object Properties",
+      "scope": ["variable.object.property.ts", "variable.object.property.tsx"],
+      "settings": {
+        "foreground": "#75ffd1"
+      }
+    },
+    {
+      "name": "TypeScript[React]/JavaScript Other Object",
       "scope": [
         "variable.other.object.ts",
         "variable.other.object.tsx",
-        "variable.object.property.ts",
-        "variable.object.property.tsx"
+        "variable.other.object.js"
       ],
       "settings": {
-        "foreground": "#e28080"
+        "foreground": "#75ffd1"
       }
     },
     {
@@ -1640,13 +1650,6 @@
       ],
       "settings": {
         "foreground": "#FFF9E3"
-      }
-    },
-    {
-      "name": "TypeScript[React] Variables other object",
-      "scope": ["variable.other.object.ts"],
-      "settings": {
-        "foreground": "#ffffe0"
       }
     },
     {
@@ -1736,10 +1739,11 @@
       "scope": [
         "meta.jsx.children",
         "meta.jsx.children.js",
-        "meta.jsx.children.tsx"
+        "meta.jsx.children.tsx",
+        "meta.jsx.children.ts"
       ],
       "settings": {
-        "foreground": "#cecec7"
+        "foreground": "#fffff6"
       }
     },
     {
