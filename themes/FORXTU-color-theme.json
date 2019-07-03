@@ -1,8 +1,16 @@
 {
   "name": "FORXTU",
   "type": "dark",
+  /*
+  __________                 .__
+  \______   \_____     ______|__|  ____
+   |    |  _/\__  \   /  ___/|  |_/ ___\
+   |    |   \ / __ \_ \___ \ |  |\  \___
+   |______  /(____  //____  >|__| \___  >
+          \/      \/      \/          \/
+  */
   "colors": {
-    "focusBorder": "#292c3e",
+    "focusBorder": "#747DB8",
     "foreground": "#cecec7",
     "widget.shadow": "#272a3e",
     "selection.background": "#4373c2",
@@ -211,6 +219,14 @@
     "meta.objectliteral.js": "#82AAFF"
   },
   "tokenColors": [
+    /*
+      ________ .__          ___.            .__
+     /  _____/ |  |    ____ \_ |__  _____   |  |
+    /   \  ___ |  |   /  _ \ | __ \ \__  \  |  |
+    \    \_\  \|  |__(  <_> )| \_\ \ / __ \_|  |__
+     \______  /|____/ \____/ |___  /(____  /|____/
+            \/                   \/      \/
+    */
     {
       "name": "Changed",
       "scope": [
@@ -566,13 +582,6 @@
       }
     },
     {
-      "name": "Punctuation Definition String Markdown",
-      "scope": "punctuation.definition.string.begin.markdown",
-      "settings": {
-        "foreground": "#ff5874"
-      }
-    },
-    {
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
@@ -603,7 +612,7 @@
         "meta.property-list entity.name.tag"
       ],
       "settings": {
-        "foreground": "#eed89f",
+        "foreground": "#7fdbca",
         "fontStyle": ""
       }
     },
@@ -910,6 +919,14 @@
         "foreground": "#FEF0CA"
       }
     },
+    /*
+    _________           _____   _____          _________               .__          __
+    \_   ___ \   ____ _/ ____\_/ ____\  ____  /   _____/  ____ _______ |__|______ _/  |_
+    /    \  \/  /  _ \ \   __\ \   __\_/ __ \ \_____  \ _/ ___\\_  __ \|  |\____ \\   __\
+    \     \____(  <_> )|  |    |  |  \   ___/ /        \\  \___ |  | \/|  ||  |_> >|  |
+     \______  / \____/ |__|    |__|   \___  >/_______  / \___  >|__|   |__||   __/ |__|
+            \/                            \/         \/      \/            |__|
+    */
     {
       "name": "CoffeScript Variable Assignment",
       "scope": "variable.assignment.coffee",
@@ -931,6 +948,14 @@
         "foreground": "#7fdbca"
       }
     },
+    /*
+    _________      _  _
+    \_   ___ \  __| || |__
+    /    \  \/  \   __   /
+    \     \____  |  ||  |
+     \______  / /_  ~~  _\
+            \/    |_||_|
+    */
     {
       "name": "C# Readwrite Variables",
       "scope": "variable.other.readwrite.cs",
@@ -952,6 +977,14 @@
         "foreground": "#B2CCD6"
       }
     },
+    /*
+    _________    _________  _________
+    \_   ___ \  /   _____/ /   _____/
+    /    \  \/  \_____  \  \_____  \
+    \     \____ /        \ /        \
+     \______  //_______  //_______  /
+            \/         \/         \/
+    */
     {
       "name": "Tag names in Stylesheets",
       "scope": [
@@ -994,6 +1027,14 @@
         "foreground": "#F78C6C"
       }
     },
+    /*
+    ___________.__   .__         .__
+    \_   _____/|  |  |__|___  ___|__|_______
+     |    __)_ |  |  |  |\  \/  /|  |\_  __ \
+     |        \|  |__|  | >    < |  | |  | \/
+    /_______  /|____/|__|/__/\_ \|__| |__|
+            \/                 \/
+    */
     {
       "name": "Elixir Classes",
       "scope": [
@@ -1046,6 +1087,14 @@
         "fontStyle": ""
       }
     },
+    /*
+    _________  .__
+    \_   ___ \ |  |    ____   ______ __ __ _______   ____
+    /    \  \/ |  |   /  _ \ /  ___/|  |  \\_  __ \_/ __ \
+    \     \____|  |__(  <_> )\___ \ |  |  / |  | \/\  ___/
+     \______  /|____/ \____/ /____ >|____/  |__|    \___  >
+            \/                   \/                     \/
+    */
     {
       "name": "Closure Constant Keyword",
       "scope": "constant.keyword.clojure",
@@ -1053,6 +1102,14 @@
         "foreground": "#7fdbca"
       }
     },
+    /*
+      ________
+     /  _____/   ____
+    /   \  ___  /  _ \
+    \    \_\  \(  <_> )
+     \______  / \____/
+            \/
+    */
     {
       "name": "Go Function Calls",
       "scope": "source.go meta.function-call.go",
@@ -1089,6 +1146,14 @@
         "foreground": "#ff5874"
       }
     },
+    /*
+    _________
+    \_   ___ \   .__      .__
+    /    \  \/ __|  |_____|  |___
+    \     \______    __/__    __/
+     \______  /  |__|     |__|
+            \/
+    */
     {
       "name": "C++ Functions",
       "scope": [
@@ -1127,6 +1192,14 @@
         "foreground": "#FFFCA8"
       }
     },
+    /*
+    __________                                     .__             .__   .__
+    \______   \____ __  _  __  ____ _______  ______|  |__    ____  |  |  |  |
+    |     ___//  _ \\ \/ \/ /_/ __ \\_  __ \/  ___/|  |  \ _/ __ \ |  |  |  |
+    |    |   (  <_> )\     / \  ___/ |  | \/\___ \ |   Y  \\  ___/ |  |__|  |__
+    |____|    \____/  \/\_/   \___  >|__|  /____  >|___|  / \___  >|____/|____/
+                                  \/            \/      \/      \/
+    */
     {
       "name": "Powershell Variables",
       "scope": ["variable.other.readwrite.powershell"],
@@ -1141,6 +1214,14 @@
         "foreground": "#7fdbcaff"
       }
     },
+    /*
+      ___ ___ ___________ _____   .____
+     /   |   \\__    ___//     \  |    |
+    /    ~    \ |    |  /  \ /  \ |    |
+    \    Y    / |    | /    Y    \|    |___
+     \___|_  /  |____| \____|__  /|_______ \
+           \/                  \/         \/
+    */
     {
       "name": "ID Attribute Name in HTML",
       "scope": "entity.other.attribute-name.id.html",
@@ -1164,41 +1245,6 @@
       }
     },
     {
-      "name": "JavaScript Classes",
-      "scope": "meta.class entity.name.type.class.js",
-      "settings": {
-        "foreground": "#FFFCA8"
-      }
-    },
-    {
-      "name": "JavaScript/TypeScript function parameters",
-      "scope": ["variable.other.readwrite.shorthandpropertyname.js"],
-      "settings": {
-        "foreground": "#75ffd1"
-      }
-    },
-    {
-      "name": "JavaScript Method Declaration e.g. `constructor`",
-      "scope": "meta.method.declaration storage.type.js",
-      "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "JavaScript Terminator",
-      "scope": "terminator.js",
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
-    {
-      "name": "JavaScript Meta Punctuation Definition",
-      "scope": "meta.js punctuation.definition.js",
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
-    {
       "name": "Entity Names in Code Documentations",
       "scope": [
         "entity.name.type.instance.jsdoc",
@@ -1215,61 +1261,14 @@
         "foreground": "#78ccf0"
       }
     },
-    {
-      "name": "JavaScript module imports and exports",
-      "scope": [
-        "variable.other.meta.import.js",
-        "meta.import.js variable.other",
-        "variable.other.meta.export.js",
-        "meta.export.js variable.other"
-      ],
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
-    {
-      "name": "JavaScript Variable Parameter Function",
-      "scope": "variable.parameter.function.js",
-      "settings": {
-        "foreground": "#e28080"
-      }
-    },
-    {
-      "name": "JavaScript[React]/TypeScript[React] JSX plain text",
-      "scope": ["meta.tag.jsx", "meta.tag.js"],
-      "settings": {
-        "foreground": "#fffff6"
-      }
-    },
-    {
-      "name": "JavaScript[React] Variable Other Object",
-      "scope": ["variable.object.property.js", "variable.object.property.jsx"],
-      "settings": {
-        "foreground": "#e28080"
-      }
-    },
-    {
-      "name": "JavaScript Variables",
-      "scope": ["variable.js", "variable.other.js"],
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
-    {
-      "name": "JavaScript Entity Name Type",
-      "scope": ["entity.name.type.js", "entity.name.type.module.js"],
-      "settings": {
-        "foreground": "#FFFCA8",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "JavaScript Support Classes",
-      "scope": "support.class.js",
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
+    /*
+         ____.  _________________    _______
+        |    | /   _____/\_____  \   \      \
+        |    | \_____  \  /   |   \  /   |   \
+    /\__|    | /        \/    |    \/    |    \
+    \________|/_______  /\_______  /\____|__  /
+                      \/         \/         \/
+    */
     {
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
@@ -1305,13 +1304,14 @@
         "foreground": "#ff5874"
       }
     },
-    {
-      "name": "JavaScript Other Variable",
-      "scope": "variable.other.object.js",
-      "settings": {
-        "foreground": "#FFF9E3"
-      }
-    },
+    /*
+    __________      ___.
+    \______   \__ __\_ |__  ___.__.
+    |       _/|  |  \| __ \<   |  |
+    |    |   \|  |  /| \_\ \\___  |
+    |____|_  /|____/ |___  // ____|
+           \/            \/ \/
+    */
     {
       "name": "Ruby Variables",
       "scope": ["variable.other.ruby"],
@@ -1333,6 +1333,14 @@
         "foreground": "#7fdbca"
       }
     },
+    /*
+    .____
+    |    |     ____    ______  ______
+    |    |   _/ __ \  /  ___/ /  ___/
+    |    |___\  ___/  \___ \  \___ \
+    |_______ \\___  >/____  >/____  >
+            \/    \/      \/      \/
+    */
     {
       "name": "LESS Tag names",
       "scope": "entity.name.tag.less",
@@ -1352,6 +1360,206 @@
       "scope": "meta.attribute-selector.less entity.other.attribute-name.attribute",
       "settings": {
         "foreground": "#F78C6C"
+      }
+    },
+    /*
+    __________  ___ ___ __________
+    \______   \/   |   \\______   \
+    |     ___//    ~    \|     ___/
+    |    |    \    Y    /|    |
+    |____|     \___|_  / |____|
+                     \/
+    */
+    {
+      "name": "PHP Variables",
+      "scope": "variable.other.php",
+      "settings": {
+        "foreground": "#bec5d4"
+      }
+    },
+    {
+      "name": "Support Classes in PHP",
+      "scope": "support.class.php",
+      "settings": {
+        "foreground": "#FFFCA8"
+      }
+    },
+    {
+      "name": "Punctuations in PHP function calls",
+      "scope": "meta.function-call.php punctuation",
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+    {
+      "name": "PHP Global Variables",
+      "scope": "variable.other.global.php",
+      "settings": {
+        "foreground": "#9ef2ff"
+      }
+    },
+    {
+      "name": "Declaration Punctuation in PHP Global Variables",
+      "scope": "variable.other.global.php punctuation.definition.variable",
+      "settings": {
+        "foreground": "#9ef2ff"
+      }
+    },
+    /*
+    __________          __   .__
+    \______   \___.__._/  |_ |  |__    ____    ____
+    |     ___/<   |  |\   __\|  |  \  /  _ \  /    \
+    |    |     \___  | |  |  |   Y  \(  <_> )|   |  \
+    |____|     / ____| |__|  |___|  / \____/ |___|  /
+               \/                 \/              \/
+    */
+    {
+      "name": "Language Constants in Python",
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "Python Function Parameter and Arguments",
+      "scope": [
+        "variable.parameter.function.python",
+        "meta.function-call.arguments.python"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Python Function Call",
+      "scope": [
+        "meta.function-call.python",
+        "meta.function-call.generic.python"
+      ],
+      "settings": {
+        "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "Punctuations in Python",
+      "scope": "punctuation.python",
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+    {
+      "name": "Decorator Functions in Python",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#9ef2ff"
+      }
+    },
+    {
+      "name": "Python Language Variable",
+      "scope": "source.python variable.language.special",
+      "settings": {
+        "foreground": "#8EACE3"
+      }
+    },
+    {
+      "name": "Python import control keyword",
+      "scope": "keyword.control",
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    /*
+     __________________    _________  _________
+    /   _____/\_   ___ \  /   _____/ /   _____/
+    \_____  \ /    \  \/  \_____  \  \_____  \
+     /       \\     \____ /        \ /        \
+    /_______  /\______  //_______  //_______  /
+            \/        \/         \/         \/
+    */
+    {
+      "name": "SCSS Variable",
+      "scope": [
+        "variable.scss",
+        "variable.sass",
+        "variable.parameter.url.scss",
+        "variable.parameter.url.sass"
+      ],
+      "settings": {
+        "foreground": "#9ef2ff"
+      }
+    },
+    {
+      "name": "Variables in SASS At-Rules",
+      "scope": [
+        "source.css.scss meta.at-rule variable",
+        "source.css.sass meta.at-rule variable"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Variables in SASS At-Rules",
+      "scope": [
+        "source.css.scss meta.at-rule variable",
+        "source.css.sass meta.at-rule variable"
+      ],
+      "settings": {
+        "foreground": "#bec5d4"
+      }
+    },
+    {
+      "name": "Attribute Name for SASS",
+      "scope": [
+        "meta.attribute-selector.scss entity.other.attribute-name.attribute",
+        "meta.attribute-selector.sass entity.other.attribute-name.attribute"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Tag names in SASS",
+      "scope": ["entity.name.tag.scss", "entity.name.tag.sass"],
+      "settings": {
+        "foreground": "#7fdbca"
+      }
+    },
+    {
+      "name": "SASS Keyword Other Unit",
+      "scope": ["keyword.other.unit.scss", "keyword.other.unit.sass"],
+      "settings": {
+        "foreground": "#FFEB95"
+      }
+    },
+    /*
+    _____.___.  _____      _____   .____
+    \__ |   |  /  _  \    /     \  |    |
+    /   |   | /  /_\  \  /  \ /  \ |    |
+    \____   |/    |    \/    Y    \|    |___
+    / ______|\____|__  /\____|__  /|_______ \
+    \/               \/         \/         \/
+    */
+    {
+      "name": "YAML Entity Name Tags",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#7fdbca"
+      }
+    },
+    /*
+       _____                   __        .___
+      /     \  _____  _______ |  | __  __| _/ ____ __  _  __ ____
+     /  \ /  \ \__  \ \_  __ \|  |/ / / __ | /  _ \\ \/ \/ //    \
+    /    Y    \ / __ \_|  | \/|    < / /_/ |(  <_> )\     /|   |  \
+    \____|__  /(____  /|__|   |__|_ \\____ | \____/  \/\_/ |___|  /
+            \/      \/             \/     \/                    \/
+    */
+    {
+      "name": "Punctuation Definition String Markdown",
+      "scope": "punctuation.definition.string.begin.markdown",
+      "settings": {
+        "foreground": "#ff5874"
       }
     },
     {
@@ -1449,159 +1657,48 @@
         "foreground": "#9ef2ff"
       }
     },
+
+    /*
+    ___________                         _________               .__          __
+    \__    ___/___.__.______    ____   /   _____/  ____ _______ |__|______ _/  |_
+      |    |  <   |  |\____ \ _/ __ \  \_____  \ _/ ___\\_  __ \|  |\____ \\   __\
+      |    |   \___  ||  |_> >\  ___/  /        \\  \___ |  | \/|  ||  |_> >|  |
+      |____|   / ____||   __/  \___  >/_______  / \___  >|__|   |__||   __/ |__|
+               \/     |__|         \/         \/      \/            |__|
+    */
     {
-      "name": "PHP Variables",
-      "scope": "variable.other.php",
-      "settings": {
-        "foreground": "#bec5d4"
-      }
-    },
-    {
-      "name": "Support Classes in PHP",
-      "scope": "support.class.php",
+      "name": "TypeScript Classes",
+      "scope": "meta.class entity.name.type.class.tsx",
       "settings": {
         "foreground": "#FFFCA8"
       }
     },
     {
-      "name": "Punctuations in PHP function calls",
-      "scope": "meta.function-call.php punctuation",
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
-    {
-      "name": "PHP Global Variables",
-      "scope": "variable.other.global.php",
-      "settings": {
-        "foreground": "#9ef2ff"
-      }
-    },
-    {
-      "name": "Declaration Punctuation in PHP Global Variables",
-      "scope": "variable.other.global.php punctuation.definition.variable",
-      "settings": {
-        "foreground": "#9ef2ff"
-      }
-    },
-    {
-      "name": "Language Constants in Python",
-      "scope": "constant.language.python",
+      "name": "TypeScript Entity Name Type",
+      "scope": ["entity.name.type.module.tsx", "meta.type.declaration.tsx"],
       "settings": {
         "foreground": "#ff5874"
       }
     },
     {
-      "name": "Python Function Parameter and Arguments",
+      "name": "TypeScript Method Declaration e.g. `constructor`",
       "scope": [
-        "variable.parameter.function.python",
-        "meta.function-call.arguments.python"
+        "meta.method.declaration storage.type.ts",
+        "meta.method.declaration storage.type.tsx"
       ],
       "settings": {
         "foreground": "#82AAFF"
       }
     },
-    {
-      "name": "Python Function Call",
-      "scope": [
-        "meta.function-call.python",
-        "meta.function-call.generic.python"
-      ],
-      "settings": {
-        "foreground": "#B2CCD6"
-      }
-    },
-    {
-      "name": "Punctuations in Python",
-      "scope": "punctuation.python",
-      "settings": {
-        "foreground": "#cecec7"
-      }
-    },
-    {
-      "name": "Decorator Functions in Python",
-      "scope": "entity.name.function.decorator.python",
-      "settings": {
-        "foreground": "#9ef2ff"
-      }
-    },
-    {
-      "name": "Python Language Variable",
-      "scope": "source.python variable.language.special",
-      "settings": {
-        "foreground": "#8EACE3"
-      }
-    },
-    {
-      "name": "Python import control keyword",
-      "scope": "keyword.control",
-      "settings": {
-        "foreground": "#c792ea"
-      }
-    },
-    {
-      "name": "SCSS Variable",
-      "scope": [
-        "variable.scss",
-        "variable.sass",
-        "variable.parameter.url.scss",
-        "variable.parameter.url.sass"
-      ],
-      "settings": {
-        "foreground": "#9ef2ff"
-      }
-    },
-    {
-      "name": "Variables in SASS At-Rules",
-      "scope": [
-        "source.css.scss meta.at-rule variable",
-        "source.css.sass meta.at-rule variable"
-      ],
-      "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Variables in SASS At-Rules",
-      "scope": [
-        "source.css.scss meta.at-rule variable",
-        "source.css.sass meta.at-rule variable"
-      ],
-      "settings": {
-        "foreground": "#bec5d4"
-      }
-    },
-    {
-      "name": "Attribute Name for SASS",
-      "scope": [
-        "meta.attribute-selector.scss entity.other.attribute-name.attribute",
-        "meta.attribute-selector.sass entity.other.attribute-name.attribute"
-      ],
-      "settings": {
-        "foreground": "#F78C6C"
-      }
-    },
-    {
-      "name": "Tag names in SASS",
-      "scope": ["entity.name.tag.scss", "entity.name.tag.sass"],
-      "settings": {
-        "foreground": "#7fdbca"
-      }
-    },
-    {
-      "name": "SASS Keyword Other Unit",
-      "scope": ["keyword.other.unit.scss", "keyword.other.unit.sass"],
-      "settings": {
-        "foreground": "#FFEB95"
-      }
-    },
-    {
-      "name": "JavaScript[React] Support class",
-      "scope": ["support.class", "support.class.component.open.js"],
-      "settings": {
-        "foreground": "#a995fb"
-      }
-    },
+
+    /*
+    ___________ _________               __________                          __
+    \__    ___//   _____/               \______   \  ____  _____     ____ _/  |_
+      |    |   \_____  \      ______     |       _/_/ __ \ \__  \  _/ ___\\   __\
+      |    |   /        \    /_____/     |    |   \\  ___/  / __ \_\  \___ |  |
+      |____|  /_______  /                |____|_  / \___  >(____  / \___  >|__|
+                      \/                        \/      \/      \/      \/
+    */
     {
       "name": "TypeScript[React] Variables and Object Properties",
       "scope": [
@@ -1631,12 +1728,8 @@
       }
     },
     {
-      "name": "TypeScript[React]/JavaScript Other Object",
-      "scope": [
-        "variable.other.object.ts",
-        "variable.other.object.tsx",
-        "variable.other.object.js"
-      ],
+      "name": "TypeScript[React] Other Object",
+      "scope": ["variable.other.object.ts", "variable.other.object.tsx"],
       "settings": {
         "foreground": "#75ffd1"
       }
@@ -1712,11 +1805,34 @@
         "foreground": "#82AAFF"
       }
     },
+
+    /*
+         ____.                        _________               .__          __
+        |    |_____  ___  _______    /   _____/  ____ _______ |__|______ _/  |_
+        |    |\__  \ \  \/ /\__  \   \_____  \ _/ ___\\_  __ \|  |\____ \\   __\
+    /\__|    | / __ \_\   /  / __ \_ /        \\  \___ |  | \/|  ||  |_> >|  |
+    \________|(____  / \_/  (____  //_______  / \___  >|__|   |__||   __/ |__|
+                   \/            \/         \/      \/            |__|
+    */
     {
-      "name": "YAML Entity Name Tags",
-      "scope": "entity.name.tag.yaml",
+      "name": "JavaScript Other Variable",
+      "scope": "variable.other.object.js",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#FFF9E3"
+      }
+    },
+    {
+      "name": "JavaScript function parameters",
+      "scope": ["variable.other.readwrite.shorthandpropertyname.js"],
+      "settings": {
+        "foreground": "#75ffd1"
+      }
+    },
+    {
+      "name": "JavaScript Other Object",
+      "scope": ["variable.other.object.js"],
+      "settings": {
+        "foreground": "#75ffd1"
       }
     },
     {
@@ -1727,49 +1843,137 @@
       }
     },
     {
-      "name": "Support Class Component",
-      "scope": ["support.class.component.js", "support.class.component.tsx"],
+      "name": "JavaScript Classes",
+      "scope": "meta.class entity.name.type.class.js",
       "settings": {
-        "foreground": "#a995fb",
+        "foreground": "#FFFCA8"
+      }
+    },
+    {
+      "name": "JavaScript Method Declaration e.g. `constructor`",
+      "scope": "meta.method.declaration storage.type.js",
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "JavaScript Terminator",
+      "scope": "terminator.js",
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+    {
+      "name": "JavaScript Meta Punctuation Definition",
+      "scope": "meta.js punctuation.definition.js",
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+    {
+      "name": "JavaScript module imports and exports",
+      "scope": [
+        "variable.other.meta.import.js",
+        "meta.import.js variable.other",
+        "variable.other.meta.export.js",
+        "meta.export.js variable.other"
+      ],
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+    {
+      "name": "JavaScript Variable Parameter Function",
+      "scope": "variable.parameter.function.js",
+      "settings": {
+        "foreground": "#e28080"
+      }
+    },
+    {
+      "name": "JavaScript Variables",
+      "scope": ["variable.js", "variable.other.js"],
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+    {
+      "name": "JavaScript Entity Name Type",
+      "scope": ["entity.name.type.js", "entity.name.type.module.js"],
+      "settings": {
+        "foreground": "#FFFCA8",
         "fontStyle": ""
       }
     },
+    {
+      "name": "JavaScript Support Classes",
+      "scope": "support.class.js",
+      "settings": {
+        "foreground": "#cecec7"
+      }
+    },
+
+    /*
+         ____.  _________               __________                          __
+        |    | /   _____/               \______   \  ____  _____     ____ _/  |_
+        |    | \_____  \      ______     |       _/_/ __ \ \__  \  _/ ___\\   __\
+    /\__|    | /        \    /_____/     |    |   \\  ___/  / __ \_\  \___ |  |
+    \________|/_______  /                |____|_  / \___  >(____  / \___  >|__|
+                      \/                        \/      \/      \/      \/
+    */
+    {
+      "name": "JavaScript[React] Variable Other Object",
+      "scope": ["variable.object.property.js", "variable.object.property.jsx"],
+      "settings": {
+        "foreground": "#e28080"
+      }
+    },
+    {
+      "name": "JavaScript[React] Support class",
+      "scope": ["support.class", "support.class.component.open.js"],
+      "settings": {
+        "foreground": "#a995fb"
+      }
+    },
+
+    /*
+    __________                          __
+    \______   \  ____  _____     ____ _/  |_
+     |       _/_/ __ \ \__  \  _/ ___\\   __\
+     |    |   \\  ___/  / __ \_\  \___ |  |
+     |____|_  / \___  >(____  / \___  >|__|
+            \/      \/      \/      \/
+    */
     {
       "name": "Text nested in React tags",
       "scope": [
         "meta.jsx.children",
         "meta.jsx.children.js",
         "meta.jsx.children.tsx",
-        "meta.jsx.children.ts"
+        "meta.jsx.children.ts",
+        "meta.tag.jsx",
+        "meta.tag.js"
       ],
       "settings": {
         "foreground": "#fffff6"
       }
     },
     {
-      "name": "TypeScript Classes",
-      "scope": "meta.class entity.name.type.class.tsx",
+      "name": "React - Support Class Component",
+      "scope": ["support.class.component.js", "support.class.component.tsx"],
       "settings": {
-        "foreground": "#FFFCA8"
+        "foreground": "#a995fb",
+        "fontStyle": ""
       }
     },
-    {
-      "name": "TypeScript Entity Name Type",
-      "scope": ["entity.name.type.module.tsx", "meta.type.declaration.tsx"],
-      "settings": {
-        "foreground": "#ff5874"
-      }
-    },
-    {
-      "name": "TypeScript Method Declaration e.g. `constructor`",
-      "scope": [
-        "meta.method.declaration storage.type.ts",
-        "meta.method.declaration storage.type.tsx"
-      ],
-      "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
+
+    /*
+     _______                                   .__   .__
+     \      \    ____ _______   _____  _____   |  |  |__|________  ____
+     /   |   \  /  _ \\_  __ \ /     \ \__  \  |  |  |  |\___   /_/ __ \
+    /    |    \(  <_> )|  | \/|  Y Y  \ / __ \_|  |__|  | /    / \  ___/
+    \____|__  / \____/ |__|   |__|_|  /(____  /|____/|__|/_____ \ \___  >
+            \/                      \/      \/                 \/     \/
+    */
     {
       "name": "normalize font style of certain components",
       "scope": [
